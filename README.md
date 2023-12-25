@@ -14,3 +14,6 @@ Connect to your Amazon EC2 instance and install Python and pip:
 
 ```bash
 sudo yum install -y python3 python3-pip
+
+mkdir flask_app
+cd flask_app
