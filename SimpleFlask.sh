@@ -10,3 +10,7 @@ mkdir flask_app
 # Create simple Flask app
 echo "from flask import Flask
 
+
+cd flask_app
+
+echo "in flask_app directory"
