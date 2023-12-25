@@ -1,6 +1,4 @@
-Certainly! Here is the complete GitHub-flavored Markdown for your README:
 
-```markdown
 # Dynamic Web Application with Flask on Amazon EC2
 
 Create a dynamic web application using the Flask web framework running on an Amazon EC2 instance. This project introduces server-side scripting and handling dynamic content.
