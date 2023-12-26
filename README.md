@@ -9,20 +9,14 @@ Deploy a Flask web application on an Amazon EC2 instance.
 
 ## Steps
 
-### 1. Install Flask
+### 1. Git clone script from this respitory
 
-Connect to your Amazon EC2 instance and install Python and pip:
-
-```bash
-sudo yum install -y python3 python3-pip
+```
+Git clone https://github.com/popipo74/DynamicWebApplication.git
 ```
 
-Create a directory for your Flask app:
-
-```bash
-mkdir flask_app
-cd flask_app
-```
+Then, go to 'DynamicWebApplication' directory and make the script executable by running below command
+chmod +x setup_webserver.sh
 
 ### 2. Create a file named app.py and write a simple Flask app:
 
@@ -49,15 +43,7 @@ python3 app.py
 
 Visit your EC2 instance's public IP or DNS with port 5000 (e.g., http://your-ec2-instance-public-ip:5000) to see your Flask app in action.
 
-### 4. Set Up Apache as a Reverse Proxy
-
-Install Apache on your EC2 instance (if not already installed):
-
-```bash
-sudo yum install httpd
-```
-
-Configure Apache to act as a reverse proxy for your Flask app. Edit the Apache configuration file (/etc/httpd/conf/httpd.conf or create a new configuration file):
+### 4. Configure Apache to act as a reverse proxy for your Flask app. Edit the Apache configuration file (/etc/httpd/conf/httpd.conf or create a new configuration file):
 
 ```apache
 <VirtualHost *:80>
