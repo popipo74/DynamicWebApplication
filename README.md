@@ -105,3 +105,13 @@ This project is licensed under the MIT License.
 ```
 
 Copy and paste this Markdown content into a file named `README.md` in your project's root directory.
+```
+### Security Group or known as firewall
+allowing port 80, 443 and ssh.
+![image](https://github.com/popipo74/DynamicWebApplication/assets/46301752/1ba3e857-1959-443c-8d71-07c72cdb2998)
+
+### Outpu
+Flask app is running on our server.
+Please be informed i didnt set up domain name yet. At the momment just set up in the server using public IP address
+![image](https://github.com/popipo74/DynamicWebApplication/assets/46301752/1e1814e7-6db9-45f2-9f88-0b444a414284)
+
